@@ -1,0 +1,33 @@
+.contenedor{
+    max-width: 1550px;
+    display: grid;
+    justify-self: center;
+    align-self: center;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 500px 600px;
+    gap: 10rem;
+    margin-left: 25rem;
+    padding: .5rem;
+    align-items: center; 
+    section{
+    transition: box-shadow 0.4s ease;
+    background-color: #efefef;
+    border-radius: 5%;
+    margin: 1rem 0;
+    width: 375px;
+    cursor: pointer;
+    &:hover{
+    box-shadow: 0 0.3rem 0.5rem rgba(0,0,0,4);}
+    }
+}
+.remera{
+ align-items: center;
+margin-left: 0px;
+padding: 1rem;
+img{padding-left: 0px;}
+}
+.text ,h2{text-align: center;}
+.fotos{
+width: 19rem;
+height: 19rem;
+}

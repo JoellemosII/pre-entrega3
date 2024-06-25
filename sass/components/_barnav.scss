@@ -1,0 +1,14 @@
+.barnav{
+    @include flex(row,none,none,none,3rem);
+    ul{
+        gap: 160rem;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+.contenido{
+    width: 50%;
+    margin: auto;
+    background-color: rgba(20, 20, 20, 0.1);
+    backdrop-filter: blur(7px);
+}

@@ -1,0 +1,43 @@
+.footer{
+@include flex(column,none,none,center,none);
+max-width: 100%;   
+}
+.like {text-align: center;}
+footer div{
+@include flex(none,none, none,center,3rem);
+padding-left: 1px;}          
+.iconos{
+width:50px;
+height: 50px;
+gap: 1rem;
+}
+.redes{
+background-color: map-get($colores , $color-footer );
+margin-top:3px;}
+h2{text-align: center; font-size: 2rem}
+.div-1{
+@include flex(row,none,none,none,15rem);
+padding-left: 4rem;
+a{text-decoration: none;
+color: black;
+}
+}
+.icon{
+@include flex(column,none,none,center,none);
+padding: 1rem;
+width: 8rem;
+height: 8rem;
+}
+.texto-redes{
+text-align: left;
+padding-top: 2rem;
+padding-left: 0px;
+}
+.div-2{
+@include flex(none,none,center,center,2rem);
+margin-bottom: 10px;
+padding-left: 0px;}
+.posicion{
+    @include flex(none,none,center,center,2rem);
+    padding-left: 100px;
+}

@@ -1,0 +1,73 @@
+.image{
+    width: 39rem;
+    height: 26rem;
+    border-radius: 5%;
+}
+.card-1{
+    @include flex(none,none,space-evenly,none,3rem);
+}
+.classic{
+    text-align: center;
+    width: 400px;
+    height: 260px;
+    background-color: map-get($colores , $color-navbar );
+    border-radius: 10%;
+    position: relative;
+    p{
+        font-size: 28px;
+        text-align: center;
+    }
+}
+.flecha{
+    width: 18rem;
+    height: 18rem;
+    position: absolute;
+    left: 43%;
+    bottom: 0%;
+    top: 27%;
+}
+.valor{
+    width: 110px;
+    height: 42px;
+    background-color: map-get($colores , $color-fondo-remeras );
+    position: absolute;
+    left: 35%;
+    top: 2;
+    bottom: 15%;
+}
+.card2{
+    @extend .card-1;
+padding: 2rem
+}
+.standar{
+    @extend .classic;
+    background-color:#A0CBA2;
+    p{
+        font-size: 3rem;
+        text-align: center;
+    }
+}
+.flecha-2{
+    @extend .flecha;
+    top: 53%;
+}
+.valor-2{
+    @extend .valor;
+}
+.exclusive{
+    @extend .classic;
+    background-color: #3b73a8;
+    p{
+        font-size: 28px;
+        align-items: center;
+        color: white;
+    }
+}
+.flecha-3{
+    @extend .flecha;
+    top: 87%;
+}
+.valor-3{
+    @extend .valor;
+    background-color: #1e1d6e;
+}
