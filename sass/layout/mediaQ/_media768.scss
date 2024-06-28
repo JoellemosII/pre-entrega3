@@ -1,5 +1,5 @@
 @media(max-width:768px){
-.contenedor {
+    .contenedor {
     max-width: 1024px;
     display: grid;
     justify-self: center;
@@ -32,7 +32,11 @@
     text-align: center; }
     .fotos {
     width: 19rem;
-    height: 19rem; }
+    height: 19rem; 
+    position: absolute;
+    left: 40%;
+    bottom: 100%;
+}
     .footer {
     display: flex;
     flex-direction: column;
@@ -67,7 +71,7 @@
     flex-wrap: none;
     justify-content: none;
     align-items: none;
-    gap: 15rem;
+    gap: 7rem;
     padding-left: 4rem; }
     .div-1 a {
         text-decoration: none;
@@ -80,8 +84,8 @@
     align-items: center;
     gap: none;
     padding: 1rem;
-    width: 8rem;
-    height: 8rem; }
+    width: 7rem;
+    height: 7rem; }
     .texto-redes {
     text-align: left;
     padding-top: 2rem;
@@ -102,21 +106,28 @@
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    padding-left: 0px;}
+    padding-left: 0px;
+    margin-right: 100px;
+}
     .tienda {
     text-align: center;
-    align-items: center; }
+    align-items: center; 
+    section{
+        margin-top: 60px;
+        position: absolute;
+        top: 40%;}
+    }
     .tienda div {
         display: flex;
         flex-direction: none;
         flex-wrap: none;
         justify-content: none;
         align-items: center;
-        gap: 16rem;
+        gap: 10rem;
         text-align: center;
-        padding-left: 25rem;
-        padding-top: 2rem;
-        padding-bottom: 2rem; }
+        padding-left: 19rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem; }
     .boton {
     width: 17rem;
     height: 2rem;
@@ -129,8 +140,8 @@
         cursor: pointer;
         background-color: #DCF256; }
     .image {
-    width: 39rem;
-    height: 26rem;
+    width: 29rem;
+    height: 20rem;
     border-radius: 5%; }
     .card-1, .card2 {
     display: flex;
@@ -138,11 +149,12 @@
     flex-wrap: none;
     justify-content: space-evenly;
     align-items: none;
-    gap: 3rem; }
+    gap: 3rem; 
+    margin-right: 80px;}
     .classic, .standar, .exclusive {
     text-align: center;
-    width: 400px;
-    height: 260px;
+    width: 29rem;
+    height: 20rem;
     background-color: #DCF256;
     border-radius: 10%;
     position: relative; }
@@ -150,20 +162,20 @@
         font-size: 28px;
         text-align: center; }
     .flecha, .flecha-2, .flecha-3 {
-    width: 13rem;
-    height: 13rem;
+    width: 10rem;
+    height: 10rem;
     position: absolute;
     left: 43%;
     bottom: 0%;
-    top: 41%; }
+    top: 25%; }
     .valor, .valor-2, .valor-3 {
     width: 110px;
     height: 42px;
     background-color: #ECECDE;
     position: absolute;
-    left: 35%;
+    left: 30%;
     top: 2;
-    bottom: 15%; }
+    bottom: 3%; }
     .card2 {
     padding: 2rem; }
     .standar {
@@ -172,7 +184,7 @@
         font-size: 3rem;
         text-align: center; }
     .flecha-2 {
-    top: 90%;
+    top: 46%;
     left: 44%; }
     .exclusive {
     background-color: #3b73a8; }
@@ -181,12 +193,12 @@
         align-items: center;
         color: white; }
     .flecha-3 {
-    top: 137%; }
+    top: 67%; }
     .valor-3 {
     background-color: #1e1d6e; }
     .navbar {
     background-color: #DCF256;
-    padding: 2rem;
+    padding: 1rem;
     width: 100%;
     display: flex;
     flex-direction: none;
@@ -195,16 +207,16 @@
     align-items: none;
     gap: 1rem; }
     .navbar li a {
-        font-size: 2rem; }
+        font-size: 1rem; }
     .navbar__enlace {
     display: flex;
     flex-direction: column;
     flex-wrap: none;
     justify-content: space-between;
     align-items: none;
-    gap: 3rem;
+    gap: .1rem;
     text-decoration: none;
-    font-size: 2rem; }
+    font-size: 1rem; }
     .navbar__enlace:hover {
         cursor: pointer;
         background-color: white; }
@@ -231,4 +243,5 @@
     margin: auto;
     background-color: rgba(20, 20, 20, 0.1);
     backdrop-filter: blur(7px); }
+    .parrafo{display: none;}
 }
