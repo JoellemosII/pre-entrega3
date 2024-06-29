@@ -4,15 +4,15 @@
     width: 100%;
     @include flex(none,none,center,none,1rem);
     li a{
-        font-size: 2rem;
-    }
+    font-size: 2rem;
+    color: black;}
 }
 .navbar__enlace{
     @include flex(column,none,space-between,none,3rem);
     text-decoration: none;
     font-size: 2rem;
     &:hover{
-        cursor: pointer;
-        background-color: white;
-    }
+    cursor: pointer;
+    background-color: white;}
+    
 }

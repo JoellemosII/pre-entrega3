@@ -1,0 +1,9 @@
+.atras{padding-top: 1rem;}
+.remera{
+background-color: #efefef;
+border-radius: 5%;
+margin: 1rem 0;
+width: 375px;}
+main section{
+    @include flex(none,none,none,none,none);
+}

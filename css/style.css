@@ -160,6 +160,23 @@ h2 {
   gap: 2rem;
   padding-left: 100px; }
 
+.atras {
+  padding-top: 1rem; }
+
+.remera {
+  background-color: #efefef;
+  border-radius: 5%;
+  margin: 1rem 0;
+  width: 375px; }
+
+main section {
+  display: flex;
+  flex-direction: none;
+  flex-wrap: none;
+  justify-content: none;
+  align-items: none;
+  gap: none; }
+
 .tienda {
   text-align: center;
   align-items: center; }
@@ -1423,6 +1440,7 @@ h2 {
     align-items: none;
     gap: 1rem; }
   .barnav ul {
+    color: black;
     gap: 30rem;
     margin-left: 2px;
     margin-right: 0px;
@@ -1450,7 +1468,8 @@ h2 {
   align-items: none;
   gap: 1rem; }
   .navbar li a {
-    font-size: 2rem; }
+    font-size: 2rem;
+    color: black; }
 
 .navbar__enlace {
   display: flex;
@@ -1476,6 +1495,8 @@ h2 {
     gap: 160rem;
     margin-left: 10px;
     margin-right: 10px; }
+    .barnav ul a {
+      color: black; }
 
 .contenido {
   width: 50%;

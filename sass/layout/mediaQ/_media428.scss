@@ -181,6 +181,7 @@
     position: relative;
     @include flex(row,none,none,none,1rem); }
     .barnav ul {
+    color: black;
     gap: 30rem;
     margin-left: 2px;
     margin-right: 0px;
