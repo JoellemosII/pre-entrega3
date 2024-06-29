@@ -12,22 +12,22 @@
     padding: 0px;
     align-items: center; }
     .contenedor section {
-        transition: box-shadow 0.4s ease;
-        background-color: #efefef;
-        border-radius: 5%;
-        margin: 1rem 0;
-        width: 190px;
-        cursor: pointer; }
-        .contenedor section:hover {
-        box-shadow: 0 0.3rem 0.5rem black; }
+    transition: box-shadow 0.4s ease;
+    background-color: #efefef;
+    border-radius: 5%;
+    margin: 1rem 0;
+    width: 190px;
+    cursor: pointer; }
+    .contenedor section:hover {
+    box-shadow: 0 0.3rem 0.5rem black; }
     .remera {
     align-items: center;
     margin-left: 0px;
     padding: 10px; }
     .remera img {
-        padding-left: 0px; 
-        width: 16rem;
-        height: 16rem;}
+    padding-left: 0px; 
+    width: 16rem;
+    height: 16rem;}
     .text, h2 {
     text-align: center;}
     .fotos {
@@ -37,51 +37,31 @@
     left: 20%;
     bottom: -30%;}
     .footer {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: none;
-    justify-content: none;
-    align-items: center;
-    gap: none;
+    @include flex(column,none,none,center,none);
     max-width: 100%; }
     .like {
     text-align: center; }
     footer div {
-    display: flex;
-    flex-direction: none;
-    flex-wrap: none;
-    justify-content: none;
-    align-items: center;
-    gap: 3rem;
+    @include flex(none,none,none,center,3rem);
     padding-left: 1px; }
     .iconos {
     width: 50px;
     height: 50px;
     gap: 1rem; }
     .redes {
-    background-color: #74C3EF;
+    background-color: map-get($colores , $color-footer );
     margin-top: 3px; }
     h2 {
     text-align: center;
     font-size: 2rem; }
     .div-1 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: none;
-    justify-content: none;
-    align-items: none;
-    gap: 7rem;
+    @include flex(row,none,none,none,7rem);
     padding-left: 4rem; }
     .div-1 a {
-        text-decoration: none;
-        color: black; }
+    text-decoration: none;
+    color: black; }
     .icon {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: none;
-    justify-content: none;
-    align-items: center;
-    gap: none;
+    @include flex(column,none,none,center,none);
     padding: 1rem;
     width: 7rem;
     height: 7rem; }
@@ -90,21 +70,11 @@
     padding-top: 2rem;
     padding-left: 0px; }
     .div-2 {
-    display: flex;
-    flex-direction: none;
-    flex-wrap: none;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
+    @include flex(none,none,center,center,2rem);
     margin-bottom: 10px;
     padding-left: 0px; }
     .posicion {
-    display: flex;
-    flex-direction: none;
-    flex-wrap: none;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
+   @include flex(none,none,center,center,2rem);
     padding-left: 0px;
     margin-right: 100px;}
     .tienda {
@@ -112,54 +82,44 @@
     align-items: center;
     h2,p{font-size: 1.5rem;} 
     section{
-        margin-top: 60px;
-        position: absolute;
-        top: 40%;}
+    margin-top: 60px;
+    position: absolute;
+    top: 40%;}
     }
     .tienda div {
-        display: flex;
-        flex-direction: none;
-        flex-wrap: none;
-        justify-content: none;
-        align-items: center;
-        gap: 10rem;
-        text-align: center;
-        padding-left: 19rem;
-        padding-top: 1rem;
-        padding-bottom: 1rem; }
+   @include flex(none,none,none,center,2rem);
+    text-align: center;
+    padding-left: 19rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem; }
     .boton {
     width: 17rem;
     height: 2rem;
     border-radius: 3rem;
-    background-color: #74C3EF;
+    background-color: map-get($colores , $color-footer );
     align-items: center;
     font-size: 2rem;
     text-decoration: none; }
     .boton:hover {
-        cursor: pointer;
-        background-color: #DCF256; }
+    cursor: pointer;
+    background-color: map-get($colores, $color-navbar ) };
     .image {
     width: 29rem;
     height: 20rem;
     border-radius: 5%; }
     .card-1, .card2 {
-    display: flex;
-    flex-direction: none;
-    flex-wrap: none;
-    justify-content: space-evenly;
-    align-items: none;
-    gap: 3rem; 
+    @include flex(none,none,space-evenly,none,3rem);
     margin-right: 15px;}
     .classic, .standar, .exclusive {
     text-align: center;
     width: 29rem;
     height: 20rem;
-    background-color: #DCF256;
+    background-color: map-get($colores ,  $color-navbar );
     border-radius: 10%;
     position: relative; }
     .classic p, .standar p, .exclusive p {
-        font-size: 28px;
-        text-align: center; }
+    font-size: 28px;
+    text-align: center; }
     .flecha, .flecha-2, .flecha-3 {
     width: 10rem;
     height: 10rem;
@@ -180,77 +140,58 @@
     .standar {
     background-color: #A0CBA2; }
     .standar p {
-        font-size: 3rem;
-        text-align: center; }
+    font-size: 3rem;
+    text-align: center; }
     .flecha-2 {
     top: 43%;
     left: 42%; }
     .exclusive {
     background-color: #3b73a8; }
-    .exclusive p {
-        font-size: 28px;
-        align-items: center;
-        color: white; }
+    .exclusive p { 
+    font-size: 28px;
+    align-items: center;
+    color: white; }
     .flecha-3 {
     top: 67%; }
     .valor-3 {
     background-color: #1e1d6e; }
     .logo{width: 430px;}
     img{
-        width: 100px;
-        height: 45px;
-    }
+    width: 100px;
+    height: 45px;}
     .navbar {
-    background-color: #DCF256;
+    background-color: map-get($colores,  $color-navbar );
     padding: 1rem;
     width: 430px;
-    display: flex;
-    flex-direction: none;
-    flex-wrap: none;
-    justify-content: center;
-    align-items: none;
-    gap: 1rem;
+    @include flex(none,none,center,none,1rem);
     ul{
-        gap: 4rem;
-        @include flex(column,none,none,center,none);
-        left: 30%;
-    } }
+    gap: 4rem;
+    @include flex(column,none,none,center,none);
+    left: 30%;}}
     .navbar li a {
-        font-size: 1rem; }
+    font-size: 1rem; }
     .navbar__enlace {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: none;
-    justify-content: space-between;
-    align-items: none;
-    gap: 0px;
+    @include flex(none,none,space-between,none,none);
     text-decoration: none;
     font-size: 1rem; }
     .navbar__enlace:hover {
-        cursor: pointer;
-        background-color: white; }
+    cursor: pointer;
+    background-color: white; }
     .barnav {
     position: relative;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: none;
-    justify-content: none;
-    align-items: none;
-    gap: 1rem; }
+    @include flex(row,none,none,none,1rem); }
     .barnav ul {
-        gap: 30rem;
-        margin-left: 2px;
-        margin-right: 0px;
-        max-width: 1024px; }
-        .enlace__derecha{
-            position: absolute;
-            top: 10%;
-            right: 2%;
-        }
+    gap: 30rem;
+    margin-left: 2px;
+    margin-right: 0px;
+    max-width: 1024px; }
+    .enlace__derecha{
+    position: absolute;
+    top: 10%;
+    right: 2%;}
     .contenido {
     width: 50%;
     margin: auto;
     background-color: rgba(20, 20, 20, 0.1);
     backdrop-filter: blur(7px); }
-    .parrafo{display: none;}
-}
+    .parrafo{display: none;}}

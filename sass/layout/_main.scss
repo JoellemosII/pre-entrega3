@@ -3,7 +3,7 @@
     display: grid;
     justify-self: center;
     align-self: center;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(auto-fit,minmax(280px,280px));
     grid-template-rows: 500px 600px;
     gap: 10rem;
     margin-left: 25rem;
@@ -31,3 +31,4 @@ img{padding-left: 0px;}
 width: 19rem;
 height: 19rem;
 }
+.talles{font-size: 2rem;}
