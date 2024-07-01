@@ -39,17 +39,17 @@ body {
   background-position: center;
   background-size: 100% ,100% ,100%;
   background-attachment: fixed;
-  background-image: url(../../img/Iconos/fondijo.png); }
+  background-image: url(../img/Iconos/fondijo.png); }
 
 .contenedor {
   max-width: 1550px;
   display: grid;
   justify-self: center;
   align-self: center;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 280px));
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 500px 600px;
   gap: 10rem;
-  margin-left: 25rem;
+  margin-left: 50px;
   padding: .5rem;
   align-items: center; }
   .contenedor section {
@@ -160,23 +160,6 @@ h2 {
   gap: 2rem;
   padding-left: 100px; }
 
-.atras {
-  padding-top: 1rem; }
-
-.remera {
-  background-color: #efefef;
-  border-radius: 5%;
-  margin: 1rem 0;
-  width: 375px; }
-
-main section {
-  display: flex;
-  flex-direction: none;
-  flex-wrap: none;
-  justify-content: none;
-  align-items: none;
-  gap: none; }
-
 .tienda {
   text-align: center;
   align-items: center; }
@@ -277,7 +260,7 @@ main section {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 500px 600px;
     gap: 10rem;
-    margin-left: 25rem;
+    margin-left: 50px;
     padding: .5rem;
     align-items: center; }
   .contenedor section {
@@ -1456,6 +1439,68 @@ main section {
     backdrop-filter: blur(7px); }
   .parrafo {
     display: none; } }
+
+.atras {
+  padding-top: 1rem; }
+
+.remeras {
+  border-radius: 5%;
+  margin: 1rem 0 0 0;
+  align-items: center; }
+
+.container img {
+  padding-top: 6%;
+  width: 65rem;
+  height: 60rem;
+  border-radius: 5%; }
+
+.opciones {
+  font-size: 4rem;
+  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: none;
+  justify-content: none;
+  align-items: none;
+  gap: none; }
+
+.add {
+  padding-bottom: 1rem;
+  padding-top: 1rem; }
+
+.nombre {
+  padding-left: 10rem;
+  font-size: 4rem;
+  position: absolute;
+  left: 32.5%;
+  top: 12%; }
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: none;
+  gap: none; }
+
+.flex {
+  width: 400px;
+  padding-top: 15rem; }
+
+.div {
+  display: flex;
+  flex-direction: none;
+  flex-wrap: none;
+  justify-content: space-around;
+  align-items: none;
+  gap: none; }
+
+.precio, .descripcion {
+  text-align: center; }
+
+.talles {
+  padding-left: 10rem;
+  font-size: 3rem; }
 
 .navbar {
   background-color: #DCF256;

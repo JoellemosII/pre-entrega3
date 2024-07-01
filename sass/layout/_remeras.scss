@@ -1,9 +1,29 @@
 .atras{padding-top: 1rem;}
-.remera{
-background-color: #efefef;
+.remeras{
 border-radius: 5%;
-margin: 1rem 0;
-width: 375px;}
-main section{
-    @include flex(none,none,none,none,none);
-}
+margin: 1rem 0 0 0;
+align-items:center}
+.container img{
+padding-top: 6%;
+width: 65rem;
+height: 60rem;
+border-radius: 5%;}
+.opciones{font-size: 4rem; gap: 2rem;
+@include flex(column,none,none,none,none);}
+.add{padding-bottom: 1rem; padding-top: 1rem;;}
+.nombre{
+padding-left: 10rem;
+font-size: 4rem;
+position: absolute;
+left: 32.5%;
+top: 12%}
+.container{
+@include flex(row,wrap,space-evenly,none,none);}
+.flex{
+width:400px;
+padding-top: 15rem;}
+.div{@include flex(none,none,space-around,none,none);}
+.precio , .descripcion{text-align: center;}
+.talles{padding-left: 10rem; font-size: 3rem;}
+
+
