@@ -1188,9 +1188,6 @@ h2 {
     grid-template-columns: repeat(2, 25%);
     grid-template-rows: 280px 250px;
     gap: 7rem;
-    /*margin-left: -300px;
-    margin-right: 0px;
-    padding: 0px;*/
     align-items: center; }
   .contenedor section {
     transition: box-shadow 0.4s ease;
