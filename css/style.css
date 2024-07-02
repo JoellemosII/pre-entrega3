@@ -24,6 +24,13 @@ body {
   grid-template-rows: auto 1fr auto;
   min-height: 100vh; }
 
+.cual {
+  text-align: center;
+  color: black; }
+
+.term {
+  color: black; }
+
 .logo {
   text-align: center;
   margin: 3rem , 0;
@@ -1556,4 +1563,10 @@ h2 {
   width: 50%;
   margin: auto;
   background-color: rgba(20, 20, 20, 0.1);
-  backdrop-filter: blur(7px); }
+  backdrop-filter: blur(7px);
+  text-align: center;
+  align-items: center; }
+
+h1 {
+  text-align: center;
+  font-size: 26px; }
