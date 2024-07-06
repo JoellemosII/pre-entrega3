@@ -12,22 +12,22 @@
     padding: .5rem;
     align-items: center; }
     .contenedor section {
-        transition: box-shadow 0.4s ease;
-        background-color: #efefef;
-        border-radius: 5%;
-        margin: 1rem 0;
-        width: 252px;
-        cursor: pointer; }
-        .contenedor section:hover {
-        box-shadow: 0 0.3rem 0.5rem black; }
+    transition: box-shadow 0.4s ease;
+    background-color: #efefef;
+    border-radius: 5%;
+    margin: 1rem 0;
+    width: 252px;
+    cursor: pointer; }
+    .contenedor section:hover {
+    box-shadow: 0 0.3rem 0.5rem black; }
     .remera {
     align-items: center;
     margin-left: 0px;
     padding: 1rem; }
     .remera img {
-        padding-left: 0px; 
-        width: 23rem;
-        height: 23rem;}
+    padding-left: 0px; 
+    width: 23rem;
+    height: 23rem;}
     .text, h2 {
     text-align: center; }
     .fotos {
@@ -35,25 +35,14 @@
     height: 19rem; 
     position: absolute;
     left: 40%;
-    bottom: 100%;
-}
+    bottom: 100%;}
     .footer {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: none;
-    justify-content: none;
-    align-items: center;
-    gap: none;
+    @include flex(column,none,none,center,none);
     max-width: 100%; }
     .like {
     text-align: center; }
     footer div {
-    display: flex;
-    flex-direction: none;
-    flex-wrap: none;
-    justify-content: none;
-    align-items: center;
-    gap: 3rem;
+    @include flex(none,none,none,center,3rem);
     padding-left: 1px; }
     .iconos {
     width: 50px;
@@ -66,23 +55,13 @@
     text-align: center;
     font-size: 2rem; }
     .div-1 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: none;
-    justify-content: none;
-    align-items: none;
-    gap: 7rem;
+    @include flex(row,none,none,none,7rem);
     padding-left: 4rem; }
     .div-1 a {
-        text-decoration: none;
-        color: black; }
+    text-decoration: none;
+    color: black; }
     .icon {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: none;
-    justify-content: none;
-    align-items: center;
-    gap: none;
+    @include flex(column,none,none,center,none);
     padding: 1rem;
     width: 7rem;
     height: 7rem; }
@@ -91,43 +70,26 @@
     padding-top: 2rem;
     padding-left: 0px; }
     .div-2 {
-    display: flex;
-    flex-direction: none;
-    flex-wrap: none;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
+    @include flex(column,none,center,center,2rem);
     margin-bottom: 10px;
     padding-left: 0px; }
     .posicion {
-    display: flex;
-    flex-direction: none;
-    flex-wrap: none;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
+    @include flex(none,none,center,center,2rem);
     padding-left: 0px;
-    margin-right: 100px;
-}
+    margin-right: 100px;}
     .tienda {
     text-align: center;
     align-items: center; 
     section{
-        margin-top: 60px;
-        position: absolute;
-        top: 40%;}
-    }
+    margin-top: 60px;
+    position: absolute;
+    top: 40%;}}
     .tienda div {
-        display: flex;
-        flex-direction: none;
-        flex-wrap: none;
-        justify-content: none;
-        align-items: center;
-        gap: 10rem;
-        text-align: center;
-        padding-left: 19rem;
-        padding-top: 1rem;
-        padding-bottom: 1rem; }
+    @include flex(none,none,none,center,10rem);
+    text-align: center;
+    padding-left: 19rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem; }
     .boton {
     width: 17rem;
     height: 2rem;
@@ -137,19 +99,14 @@
     font-size: 2rem;
     text-decoration: none; }
     .boton:hover {
-        cursor: pointer;
-        background-color: #DCF256; }
+    cursor: pointer;
+    background-color: #DCF256; }
     .image {
     width: 29rem;
     height: 20rem;
     border-radius: 5%; }
-    .card-1, .card2 {
-    display: flex;
-    flex-direction: none;
-    flex-wrap: none;
-    justify-content: space-evenly;
-    align-items: none;
-    gap: 3rem; 
+    .card-1, .card2 { 
+    @include flex(none,none,space-evenly,none,3rem);
     margin-right: 15px;}
     .classic, .standar, .exclusive {
     text-align: center;
@@ -159,8 +116,8 @@
     border-radius: 10%;
     position: relative; }
     .classic p, .standar p, .exclusive p {
-        font-size: 28px;
-        text-align: center; }
+    font-size: 28px;
+    text-align: center; }
     .flecha, .flecha-2, .flecha-3 {
     width: 10rem;
     height: 10rem;
@@ -181,17 +138,17 @@
     .standar {
     background-color: #A0CBA2; }
     .standar p {
-        font-size: 3rem;
-        text-align: center; }
+    font-size: 3rem;
+    text-align: center; }
     .flecha-2 {
     top: 43%;
     left: 42%; }
     .exclusive {
     background-color: #3b73a8; }
     .exclusive p {
-        font-size: 28px;
-        align-items: center;
-        color: white; }
+    font-size: 28px;
+    align-items: center;
+    color: white; }
     .flecha-3 {
     top: 67%; }
     .valor-3 {
@@ -200,45 +157,29 @@
     background-color: #DCF256;
     padding: 1rem;
     width: 100%;
-    display: flex;
-    flex-direction: none;
-    flex-wrap: none;
-    justify-content: center;
-    align-items: none;
-    gap: 1rem;
-    ul{gap: 9rem;} }
+    @include flex(none,none,center,none,1rem);
+    ul{gap: 5rem;} }
     .navbar li a {
-        font-size: 1rem; }
+    font-size: 1rem; }
     .navbar__enlace {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: none;
-    justify-content: space-between;
-    align-items: none;
-    gap: 0px;
+    @include flex(column,none,space-between,none,none);
     text-decoration: none;
     font-size: 1rem; }
     .navbar__enlace:hover {
-        cursor: pointer;
-        background-color: white; }
+    cursor: pointer;
+    background-color: white; }
     .barnav {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: none;
-    justify-content: none;
-    align-items: none;
-    gap: 1rem; }
+    position: relative; 
+    @include flex(row,none,none,none,1rem);}
     .barnav ul {
-        gap: 30rem;
-        margin-left: 2px;
-        margin-right: 0px;
-        max-width: 1024px; }
-        .enlace__derecha{
-            position: absolute;
-            top: 10%;
-            right: 2%;
-        }
+    gap: 30rem;
+    margin-left: 2px;
+    margin-right: 0px;
+    max-width: 1024px; }
+    .enlace__derecha{
+    position: absolute;
+    top: 10%;
+    right: 2%;}
     .contenido {
     width: 50%;
     margin: auto;
