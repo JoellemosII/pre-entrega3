@@ -529,7 +529,16 @@ h2 {
     text-align: center; }
   .talles {
     padding-left: 10rem;
-    font-size: 3rem; } }
+    font-size: 3rem; }
+  .pagos {
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+    grid-template-rows: 80px 80px; }
+    .pagos img {
+      width: 6rem;
+      height: 6rem; }
+  h2 {
+    text-align: center; } }
 
 @media (max-width: 1440px) {
   .contenedor {
@@ -1085,7 +1094,7 @@ h2 {
     padding-left: 0px; }
   .div-2 {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: none;
     justify-content: center;
     align-items: center;
@@ -1213,30 +1222,30 @@ h2 {
   .navbar__enlace:hover {
     cursor: pointer;
     background-color: white; }
-  .barnav {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: none;
-    justify-content: none;
-    align-items: none;
-    gap: 1rem; }
-  .barnav ul {
-    gap: 30rem;
-    margin-left: 2px;
-    margin-right: 0px;
-    max-width: 1024px; }
-  .enlace__derecha {
-    position: absolute;
-    top: 10%;
-    right: 2%; }
-  .contenido {
-    width: 50%;
-    margin: auto;
-    background-color: rgba(20, 20, 20, 0.1);
-    backdrop-filter: blur(7px); }
-  .parrafo {
-    display: none; } }
+    .navbar__enlace:hover .barnav {
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: none;
+      justify-content: none;
+      align-items: none;
+      gap: 1rem; }
+    .navbar__enlace:hover .barnav ul {
+      gap: 30rem;
+      margin-left: 2px;
+      margin-right: 0px;
+      max-width: 1024px; }
+    .navbar__enlace:hover .enlace__derecha {
+      position: absolute;
+      top: 10%;
+      right: 2%; }
+    .navbar__enlace:hover .contenido {
+      width: 50%;
+      margin: auto;
+      background-color: rgba(20, 20, 20, 0.1);
+      backdrop-filter: blur(7px); }
+    .navbar__enlace:hover .parrafo {
+      display: none; } }
 
 @media (max-width: 428px) {
   .contenedor {
@@ -1569,6 +1578,17 @@ h2 {
 .talles {
   padding-left: 10rem;
   font-size: 3rem; }
+
+.pagos {
+  display: grid;
+  grid-template-columns: repeat(5, 20%);
+  grid-template-rows: 80px 80px; }
+  .pagos img {
+    width: 6rem;
+    height: 6rem; }
+
+h2 {
+  text-align: center; }
 
 .navbar {
   background-color: #DCF256;

@@ -70,7 +70,7 @@
     padding-top: 2rem;
     padding-left: 0px; }
     .div-2 {
-    @include flex(column,none,center,center,2rem);
+    @include flex(row,none,center,center,2rem);
     margin-bottom: 10px;
     padding-left: 0px; }
     .posicion {
@@ -167,7 +167,7 @@
     font-size: 1rem; }
     .navbar__enlace:hover {
     cursor: pointer;
-    background-color: white; }
+    background-color: white;
     .barnav {
     position: relative; 
     @include flex(row,none,none,none,1rem);}
@@ -185,5 +185,6 @@
     margin: auto;
     background-color: rgba(20, 20, 20, 0.1);
     backdrop-filter: blur(7px); }
-    .parrafo{display: none;}
+    .parrafo {display: none;}
+    }
 }
