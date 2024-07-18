@@ -1,0 +1,60 @@
+/*Colores*/
+input[class="negro"]{
+    accent-color: black;
+    width: 29px;
+    height: 29px;
+}
+input[class="azul"]{
+    accent-color: blue;
+    width: 29px;
+    height: 29px;
+}
+input[class="amarillo"]{
+    accent-color: yellow;
+    width: 29px;
+    height: 29px;
+}
+input[class="verde"]{
+    accent-color:green;
+    width: 29px;
+    height: 29px;
+}
+input[class="rojo"]{
+    accent-color:red;
+    width: 29px;
+    height: 29px;
+}
+input[class="gris"]{
+    accent-color:grey;
+    width: 29px;
+    height: 29px;
+}
+input[class="marron"]{
+    accent-color:#7f5345;
+    width: 29px;
+    height: 29px;
+}
+/* talles*/
+input[class="radio"]{
+    accent-color: black;
+    width: 19px;
+    height: 19px;
+}
+.suma{
+align-items: center;
+justify-content: center;}
+
+.cant{
+    i{  align-items: center;
+        font-size: 3.5rem;
+        color: gray;
+        display: flex;
+    justify-content: center;
+padding-bottom: 20px;}
+}
+.cero{
+    padding: 0 25px;
+color: gray;
+}
+#resta{padding-left: 60px;}
+.metodos{padding-top: 1rem;}

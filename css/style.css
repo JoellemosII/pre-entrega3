@@ -1549,8 +1549,8 @@ h2 {
   padding-left: 10rem;
   font-size: 4rem;
   position: absolute;
-  left: 32.5%;
-  top: 12%; }
+  left: 69.5%;
+  top: 19.5%; }
 
 .container {
   display: flex;
@@ -1576,8 +1576,9 @@ h2 {
   text-align: center; }
 
 .talles {
-  padding-left: 10rem;
-  font-size: 3rem; }
+  padding-left: 0rem;
+  font-size: 3rem;
+  gap: 1rem; }
 
 .pagos {
   display: grid;
@@ -1589,6 +1590,16 @@ h2 {
 
 h2 {
   text-align: center; }
+
+.talles {
+  display: flex; }
+
+.colores {
+  display: flex;
+  gap: 2rem; }
+
+.cant {
+  display: flex; }
 
 .navbar {
   background-color: #DCF256;
@@ -1642,3 +1653,67 @@ h2 {
 h1 {
   text-align: center;
   font-size: 26px; }
+
+/*Colores*/
+input[class="negro"] {
+  accent-color: black;
+  width: 29px;
+  height: 29px; }
+
+input[class="azul"] {
+  accent-color: blue;
+  width: 29px;
+  height: 29px; }
+
+input[class="amarillo"] {
+  accent-color: yellow;
+  width: 29px;
+  height: 29px; }
+
+input[class="verde"] {
+  accent-color: green;
+  width: 29px;
+  height: 29px; }
+
+input[class="rojo"] {
+  accent-color: red;
+  width: 29px;
+  height: 29px; }
+
+input[class="gris"] {
+  accent-color: grey;
+  width: 29px;
+  height: 29px; }
+
+input[class="marron"] {
+  accent-color: #7f5345;
+  width: 29px;
+  height: 29px; }
+
+/* talles*/
+input[class="radio"] {
+  accent-color: black;
+  width: 19px;
+  height: 19px; }
+
+.suma {
+  align-items: center;
+  justify-content: center; }
+
+.cant i {
+  align-items: center;
+  font-size: 3.5rem;
+  color: gray;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px; }
+
+.cero {
+  padding: 0 25px;
+  color: gray; }
+
+#resta {
+  padding-left: 60px; }
+
+.metodos {
+  padding-top: 1rem; }
