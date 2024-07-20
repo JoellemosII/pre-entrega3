@@ -10,14 +10,16 @@
     padding: .5rem;
     align-items: center; 
     section{
-    transition: box-shadow 0.4s ease;
+    transition: box-shadow 0.3s ease;
     background-color: #efefef;
     border-radius: 5%;
     margin: 1rem 0;
     width: 375px;
     cursor: pointer;
+    transition: 200ms;
     &:hover{
-    box-shadow: 0 0.3rem 0.5rem rgba(0,0,0,4);}
+    box-shadow: 0 0.3rem 0.5rem rgba(0,0,0,4);
+    translate: 0 -10px ;}
     }
 }
 .remera{
